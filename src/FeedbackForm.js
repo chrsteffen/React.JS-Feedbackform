@@ -62,7 +62,6 @@ class FeedbackForm extends Component {
                     valid={this.state.controlsOnForm.feedback.valid}
                     modified={this.state.controlsOnForm.feedback.modified}
                     onChange={this.feedbackChangedHandler}
-
                     rows="10"
                     style={{ width: 400 }}
                 />
